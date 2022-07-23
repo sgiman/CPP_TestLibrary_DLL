@@ -11,11 +11,10 @@
 #include <ctime>
 
 #define _CRT_SECURE_NO_WARNINGS
-
 using namespace std;
 
 /*------------------
-	   MyDate
+       MyDate
 -------------------*/
 // For current Date
 struct tm newtime;
@@ -41,7 +40,7 @@ void MyDate()
 }
 
 /*----------------------------- 
-	 Заполнить дин. массив 
+     Заполнить дин. массив 
 ------------------------------*/
 void FillArray(int* const arr, const int size, const int max)
 {
@@ -65,7 +64,8 @@ void ShowArray(int* const arr, const int size)
 }
 
 /*----------------------------- 
-  ПРОСТЕЙШИЙ УМНЫЙ УКАЗАТЕЛЬ 
+   ПРОСТЕЙШИЙ УМНЫЙ УКАЗАТЕЛЬ 
+	    (class)
 ------------------------------*/
 template <typename T> 
 class SmartPointer
